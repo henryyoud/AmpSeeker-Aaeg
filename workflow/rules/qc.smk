@@ -37,7 +37,7 @@ rule fastp:
         "v1.25.0/bio/fastp"
 
 
-rule mosdepth_coverage:
+rule mosdepth_coverage_targets:
         """
         Target per-base coverage with mosdepth
         """
@@ -46,17 +46,43 @@ rule mosdepth_coverage:
             idx="results/alignments/{sample}.bam.bai",
             panel=config["targets"],
         output:
-            "results/coverage/{sample}.per-base.bed.gz",
-            "results/coverage/{sample}.regions.bed.gz",
-            "results/coverage/{sample}.mosdepth.summary.txt",
-            "results/coverage/{sample}.mosdepth.global.dist.txt",
+            "results/coverage_targets/{sample}.per-base.bed.gz",
+            "results/coverage_targets/{sample}.regions.bed.gz",
+            "results/coverage_targets/{sample}.mosdepth.summary.txt",
+            "results/coverage_targets/{sample}.mosdepth.global.dist.txt",
         log:
-            "logs/coverage/{sample}.log",
+            "logs/coverage_targets/{sample}.log",
         threads: 4
         conda:
             "../envs/AmpSeeker-cli.yaml"
         params:
-            prefix="results/coverage/{sample}"
+            prefix="results/coverage_targets/{sample}"
+        shell:
+            """
+            mosdepth {params.prefix} {input.bam} --fast-mode --by {input.panel} --threads {threads} 2> {log}
+            """
+
+
+rule mosdepth_coverage_amplicons:
+        """
+        Amplicon per-base coverage with mosdepth
+        """
+        input:
+            bam="results/alignments/{sample}.bam",
+            idx="results/alignments/{sample}.bam.bai",
+            panel=config["amplicons"],
+        output:
+            "results/coverage_amplicons/{sample}.per-base.bed.gz",
+            "results/coverage_amplicons/{sample}.regions.bed.gz",
+            "results/coverage_amplicons/{sample}.mosdepth.summary.txt",
+            "results/coverage_amplicons/{sample}.mosdepth.global.dist.txt",
+        log:
+            "logs/coverage_amplicons/{sample}.log",
+        threads: 4
+        conda:
+            "../envs/AmpSeeker-cli.yaml"
+        params:
+            prefix="results/coverage_amplicons/{sample}"
         shell:
             """
             mosdepth {params.prefix} {input.bam} --fast-mode --by {input.panel} --threads {threads} 2> {log}
@@ -106,13 +132,13 @@ rule multiQC:
         expand("results/qc/{dataset}.merged.vcf.txt", dataset=dataset)
         if config["quality-control"]["stats"]
         else [],
-        expand("results/coverage/{sample}.per-base.bed.gz", sample=samples)
+        expand("results/coverage_amplicons/{sample}.per-base.bed.gz", sample=samples)
         if config["quality-control"]["coverage"]
         else [],
-        expand("results/coverage/{sample}.mosdepth.summary.txt", sample=samples)
+        expand("results/coverage_amplicons/{sample}.mosdepth.summary.txt", sample=samples)
         if config["quality-control"]["coverage"]
         else [],
-        expand("results/coverage/{sample}.mosdepth.global.dist.txt", sample=samples)
+        expand("results/coverage_amplicons/{sample}.mosdepth.global.dist.txt", sample=samples)
         if config["quality-control"]["coverage"]
         else [],
     output:

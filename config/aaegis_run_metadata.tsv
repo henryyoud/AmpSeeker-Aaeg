@@ -1,0 +1,105 @@
+sample_id	taxon	location	country	plate	well_letter	well_number	latitude	longitude
+CIV_VAL_23	Ae. aegypti	Vallon	Cote d'Ivoire	1	A	1	5.3167	-4.0333
+GMB_BRI_8_2	Ae. formosus	Brikama Town	Gambia	1	A	2	13.267	-16.6494
+GMB_KAN_2_1	Ae. aegypti	Kanifing Institutional Layout	Gambia	1	A	3	13.4386	-16.6762
+GHN_DAM_8_1	Ae. formosus	Damango	Ghana	1	A	4	9.083	-1.817
+NGA_GRA_8_1	Ae. formosus	Ilorin	Nigeria	1	A	5	8.5	4.55
+NGN_NIK_1_1	Ae. aegypti	Enugu	Nigeria	1	A	6	6.4599	7.5489
+NGN_TRN_617_4	Ae. formosus	Enugu	Nigeria	1	A	7	6.4599	7.5489
+TG_DJA_1_2	Ae. aegypti	DJABLE	Togo	1	A	8	6.333	1.017
+TG_HAN_7_4	Ae. aegypti	HANOUKOPE	Togo	1	A	9	6.1352	1.2189
+BF_LGT_23_8	Ae. aegypti	1200 logement	Burkina Faso	1	A	10	12.3689	-1.4975
+NIG_NRG_1_4	Ae. aegypti	Niamey Rive Gauche	Niger 	1	A	11	13.5137	2.1098
+BFA_BFR_20_1_1	Ae. aegypti	Banfora/Sect 1	Burkina Faso	1	A	12	10.6333	-4.7667
+CIV_VAL_24	Ae. aegypti	Vallon	Cote d'Ivoire	1	B	1	5.3167	-4.0333
+GMB_BRI_8_3	Ae. formosus	Brikama Town	Gambia	1	B	2	13.267	-16.6494
+GMB_KAN_2_2	Ae. aegypti	Kanifing Institutional Layout	Gambia	1	B	3	13.4386	-16.6762
+GHN_DAM_8_2	Ae. formosus	Damango	Ghana	1	B	4	9.083	-1.817
+NGA_GRA_8_2	Ae. formosus	Ilorin	Nigeria	1	B	5	8.5	4.55
+NGN_NIK_1_2	Ae. aegypti	Enugu	Nigeria	1	B	6	6.4599	7.5489
+TG_DJA_9_1	Ae. formosus	DJABLE	Togo	1	B	7	6.333	1.017
+TG_HAN_4_1	Ae. formosus	HANOUKOPE	Togo	1	B	8	6.1352	1.2189
+BF_LGT_23_1	Ae. aegypti	1200 logement	Burkina Faso	1	B	9	12.3689	-1.4975
+BF_LGT_23_9	Ae. aegypti	1200 logement	Burkina Faso	1	B	10	12.3689	-1.4975
+NIG_NRG_1_5	Ae. aegypti	Niamey Rive Gauche	Niger 	1	B	11	13.5137	2.1098
+BFA_BFR_20_1_2	Ae. aegypti	Banfora/Sect 1	Burkina Faso	1	B	12	10.6333	-4.7667
+CIV_VAL_25	Ae. aegypti	Vallon	Cote d'Ivoire	1	C	1	5.3167	-4.0333
+GMB_BRI_4_3	Ae. formosus	Brikama Town	Gambia	1	C	2	13.267	-16.6494
+GMB_KAN_7_1	Ae. formosus	Kanifing Institutional Layout	Gambia	1	C	3	13.4386	-16.6762
+GHN_DAM_8_3	Ae. formosus	Damango	Ghana	1	C	4	9.083	-1.817
+NGA_GRA_8_3	Ae. formosus	Ilorin	Nigeria	1	C	5	8.5	4.55
+NGN_NIK_1_3	Ae. aegypti	Enugu	Nigeria	1	C	6	6.4599	7.5489
+TG_DJA_9_2	Ae. formosus	DJABLE	Togo	1	C	7	6.333	1.017
+TG_HAN_4_2	Ae. formosus	HANOUKOPE	Togo	1	C	8	6.1352	1.2189
+BF_LGT_23_2	Ae. aegypti	1200 logement	Burkina Faso	1	C	9	12.3689	-1.4975
+BF_LGT_23_10	Ae. aegypti	1200 logement	Burkina Faso	1	C	10	12.3689	-1.4975
+NIG_NRG_1_6	Ae. aegypti	Niamey Rive Gauche	Niger 	1	C	11	13.5137	2.1098
+BFA_BFR_20_1_3	Ae. aegypti	Banfora/Sect 1	Burkina Faso	1	C	12	10.6333	-4.7667
+CIV_VAL_26	Ae. aegypti	Vallon	Cote d'Ivoire	1	D	1	5.3167	-4.0333
+GMB_BRI_4_4	Ae. formosus	Brikama Town	Gambia	1	D	2	13.267	-16.6494
+GMB_KAN_7_2	Ae. aegypti	Kanifing Institutional Layout	Gambia	1	D	3	13.4386	-16.6762
+GHN_DAM_8_4	Ae. formosus	Damango	Ghana	1	D	4	9.083	-1.817
+NGA_GRA_8_4	Ae. formosus	Ilorin	Nigeria	1	D	5	8.5	4.55
+NGN_TRN_19_1	Ae. aegypti	Enugu	Nigeria	1	D	6	6.4599	7.5489
+TG_DJA_9_3	Ae. formosus	DJABLE	Togo	1	D	7	6.333	1.017
+TG_HAN_4_3	Ae. formosus	HANOUKOPE	Togo	1	D	8	6.1352	1.2189
+BF_LGT_23_3	Ae. aegypti	1200 logement	Burkina Faso	1	D	9	12.3689	-1.4975
+BF_LGT_23_11	Ae. aegypti	1200 logement	Burkina Faso	1	D	10	12.3689	-1.4975
+NIG_NRG_1_7	Ae. aegypti	Niamey Rive Gauche	Niger 	1	D	11	13.5137	2.1098
+BFA_BFR_20_1_4	Ae. aegypti	Banfora/Sect 1	Burkina Faso	1	D	12	10.6333	-4.7667
+GMB_BRI_4_1	Ae. aegypti	Brikama Town	Gambia	1	E	1	13.267	-16.6494
+GMB_BRI_4_5	Ae. aegypti	Brikama Town	Gambia	1	E	2	13.267	-16.6494
+GHN_DAM_4_1	Ae. formosus	Damango	Ghana	1	E	3	9.083	-1.817
+GHN_DAM_13_1	Ae. formosus	Damango	Ghana	1	E	4	9.083	-1.817
+NGA_IlO_10_1	Ae. aegypti	Ilorin	Nigeria	1	E	5	8.5	4.55
+NGN_TRN_617_1	Ae. formosus	Enugu	Nigeria	1	E	6	6.4599	7.5489
+TG_DJA_9_4	Ae. formosus	DJABLE	Togo	1	E	7	6.333	1.017
+TG_HAN_4_4	Ae. formosus	HANOUKOPE	Togo	1	E	8	6.1352	1.2189
+BF_LGT_23_4	Ae. aegypti	1200 logement	Burkina Faso	1	E	9	12.3689	-1.4975
+BF_LGT_23_12	Ae. aegypti	1200 logement	Burkina Faso	1	E	10	12.3689	-1.4975
+NIG_NRG_1_8	Ae. aegypti	Niamey Rive Gauche	Niger 	1	E	11	13.5137	2.1098
+BFA_BFR_20_1_5	Ae. aegypti	Banfora/Sect 1	Burkina Faso	1	E	12	10.6333	-4.7667
+GMB_BRI_4_2	Ae. aegypti	Brikama Town	Gambia	1	F	1	13.267	-16.6494
+GMB_BRI_6_1	Ae. aegypti	Brikama Town	Gambia	1	F	2	13.267	-16.6494
+GHN_DAM_4_2	Ae. formosus	Damango	Ghana	1	F	3	9.083	-1.817
+GHN_DAM_13_2	Ae. formosus	Damango	Ghana	1	F	4	9.083	-1.817
+NGA_IlO_10_2	Ae. aegypti	Ilorin	Nigeria	1	F	5	8.5	4.55
+NGN_TRN_617_2	Ae. formosus	Enugu	Nigeria	1	F	6	6.4599	7.5489
+TG_DJA_19_1	Ae. aegypti	DJABLE	Togo	1	F	7	6.333	1.017
+TG_HAN_7_1	Ae. aegypti	HANOUKOPE	Togo	1	F	8	6.1352	1.2189
+BF_LGT_23_5	Ae. aegypti	1200 logement	Burkina Faso	1	F	9	12.3689	-1.4975
+NIG_NRG_1_1	Ae. aegypti	Niamey Rive Gauche	Niger 	1	F	10	13.5137	2.1098
+NIG_NRG_1_9	Ae. aegypti	Niamey Rive Gauche	Niger 	1	F	11	13.5137	2.1098
+BFA_BFR_20_2_1	Ae. aegypti	Banfora/Sect 1	Burkina Faso	1	F	12	10.6333	-4.7667
+GMB_BRI_5_1	Ae. formosus	Brikama Town	Gambia	1	G	1	13.267	-16.6494
+GMB_BRI_6_2	Ae. aegypti	Brikama Town	Gambia	1	G	2	13.267	-16.6494
+GHN_DAM_4_3	Ae. formosus	Damango	Ghana	1	G	3	9.083	-1.817
+GHN_DAM_13_3	Ae. formosus	Damango	Ghana	1	G	4	9.083	-1.817
+NGA_IlO_10_3	Ae. aegypti	Ilorin	Nigeria	1	G	5	8.5	4.55
+NGN_TRN_617_3	Ae. formosus	Enugu	Nigeria	1	G	6	6.4599	7.5489
+TG_DJA_19_2	Ae. aegypti	DJABLE	Togo	1	G	7	6.333	1.017
+TG_HAN_7_2	Ae. aegypti	HANOUKOPE	Togo	1	G	8	6.1352	1.2189
+BF_LGT_23_6	Ae. aegypti	1200 logement	Burkina Faso	1	G	9	12.3689	-1.4975
+NIG_NRG_1_2	Ae. aegypti	Niamey Rive Gauche	Niger 	1	G	10	13.5137	2.1098
+NIG_NRG_1_10	Ae. aegypti	Niamey Rive Gauche	Niger 	1	G	11	13.5137	2.1098
+BFA_BFR_20_2_2	Ae. aegypti	Banfora/Sect 1	Burkina Faso	1	G	12	10.6333	-4.7667
+GMB_BRI_8_1	Ae. formosus	Brikama Town	Gambia	1	H	1	13.267	-16.6494
+GMB_KAN_1_1	Ae. formosus	Kanifing Institutional Layout	Gambia	1	H	2	13.4386	-16.6762
+GHN_DAM_4_4	Ae. formosus	Damango	Ghana	1	H	3	9.083	-1.817
+GHN_DAM_13_4	Ae. formosus	Damango	Ghana	1	H	4	9.083	-1.817
+NGA_IlO_10_4	Ae. aegypti	Ilorin	Nigeria	1	H	5	8.5	4.55
+NCT1	NA	NCT1	NCT1	1	H	6	0	0
+TG_DJA_1_1	Ae. aegypti	DJABLE	Togo	1	H	7	6.333	1.017
+TG_HAN_7_3	Ae. aegypti	HANOUKOPE	Togo	1	H	8	6.1352	1.2189
+BF_LGT_23_7	Ae. aegypti	1200 logement	Burkina Faso	1	H	9	12.3689	-1.4975
+NIG_NRG_1_3	Ae. aegypti	Niamey Rive Gauche	Niger 	1	H	10	13.5137	2.1098
+NIG_NRG_2_1	Ae. aegypti	Niamey Rive Gauche	Niger 	1	H	11	13.5137	2.1098
+NCT2	NA	NCT2	NCT2	1	H	12	0	0
+BRA_1	Ae. aegypti	Brazil	Brazil	5	A	1	-5.40258	-36.954105
+BRA_2	Ae. aegypti	Brazil	Brazil	5	B	1	-5.40258	-36.954105
+BRA_3	Ae. aegypti	Brazil	Brazil	5	C	1	-5.40258	-36.954105
+BRA_4	Ae. aegypti	Brazil	Brazil	5	D	1	-5.40258	-36.954105
+BRA_5	Ae. aegypti	Brazil	Brazil	5	E	1	-5.40258	-36.954105
+BRA_6	Ae. aegypti	Brazil	Brazil	5	F	1	-5.40258	-36.954105
+BRA_7	Ae. aegypti	Brazil	Brazil	5	G	1	-5.40258	-36.954105
+BRA_8	Ae. aegypti	Brazil	Brazil	5	H	1	-5.40258	-36.954105
