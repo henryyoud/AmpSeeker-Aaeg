@@ -12,10 +12,6 @@ targets: config/aaegis_targets.bed
 amplicons: config/aaegis_amplicons.bed
 metadata: config/aaegis_run_metadata.tsv
 
-# Specify whether any 
-multi-target-amplicons: True 
-amplicons: config/aaegis_amplicons.bed
-
 from-bcl: True
 # Directory of Illumina Miseq Run, can be empty 
 illumina-dir: resources/250110_M05658_0028_000000000-LTBV4
