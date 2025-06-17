@@ -101,7 +101,7 @@ rule coverage:
         per_base=expand("results/coverage/{sample}.per-base.bed.gz", sample=samples),
         metadata="results/config/metadata.tsv",
         targets=config["targets"],
-        amplicons=config["amplicons],
+        amplicons=config["amplicons"],
     output:
         nb="results/notebooks/coverage.ipynb",
         docs_nb="docs/ampseeker-results/notebooks/coverage.ipynb",
